@@ -50,3 +50,13 @@
     stroke-width: 4;
     stroke-miterlimit: 10;
 }
+.sizing-box{
+    fill:none;
+}
+/*adding the animation effect for the hour, minute and seconds arm*/
+#hour,
+#minute,
+#second {
+    transform-origin: 300px 300px;
+    transition: transform .5s ease-in-out;
+}
